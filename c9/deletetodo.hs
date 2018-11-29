@@ -22,4 +22,4 @@ main = do
             hPutStr tempHandle newTodoItems
             hClose tempHandle
             removeFile "todo.txt"
-            renameFile tempName "todo.txt") 
+            renameFile tempName "todo.txt")
